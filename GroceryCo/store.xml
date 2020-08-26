@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Store>
+	<Inventory>
+    <InventoryItem name="apple" unitPrice="0.75">
+      <Promotions>
+        <GroupPromotion groupSize="3" groupPrice="2.00" startDate="2020-08-21" endDate="2020-08-28"/>
+      </Promotions>
+    </InventoryItem>
+    <InventoryItem name="banana" unitPrice="1">
+      <Promotions>
+        <MinimumQuantityPromotion minimumQuantity="2" saleUnitPrice="0.80" startDate="2020-08-21" endDate="2020-08-28"/>
+      </Promotions>
+    </InventoryItem>
+    <InventoryItem name="orange" unitPrice="0.80">
+      <Promotions>
+        <BasicPromotion saleUnitPrice="0.50" startDate="2020-08-21" endDate="2020-08-28"/>
+      </Promotions>
+    </InventoryItem>
+    <InventoryItem name="mango" unitPrice="2.50">
+      <Promotions>
+        <AdditionalProductPromotion additionalItemDiscount="0.50" startDate="2020-08-21" endDate="2020-08-28"/>
+      </Promotions>
+    </InventoryItem>
+    <InventoryItem name="kiwi" unitPrice="1.25"></InventoryItem>
+	</Inventory>
+</Store>
